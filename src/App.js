@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import data from './data'
 import List from './List'
+import Navbar from "./components/Navbar/Navbar"
 function App() {
   const [people, setPeople] = useState(data)
   return (
+    <>
+<Navbar />
     <main>
       <section className='container'>
         <h3>{people.length} birthdays today</h3>
@@ -11,6 +14,7 @@ function App() {
         <button onClick={() => setPeople([])}>clear all</button>
       </section>
     </main>
+    </>
   )
 }
 
