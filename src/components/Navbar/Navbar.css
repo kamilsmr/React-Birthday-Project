@@ -1,0 +1,32 @@
+
+.navbar{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.logo-title{
+color:aliceblue
+}
+
+
+.navbar-logo{
+    font-size: 3rem; 
+    padding-right: 2rem; 
+}
+
+.container-menu{
+    display: flex;
+  
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    justify-content: flex-end;
+}
+
+.menu{
+    flex-direction: column;
+}
